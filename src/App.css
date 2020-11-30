@@ -7,5 +7,18 @@
 }
 body{
   font-family: 'Oswald', sans-serif !important;
+  /* font-family: 'Nerko One', cursive !important; */
   background: var(--mainWhite)!important;
+  color:var(--mainDark)!important
+}
+.text-title{
+  font-family: 'Nerko One', cursive;
+  letter-spacing:0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
 }
