@@ -14,8 +14,9 @@ export default class Navbar extends Component {
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk  */}
                 <Link to='/'>
-                    <img src={logo} style={{width:"80px",height:"80px"}} alt="store" className="navbar-brand"/>
+                    <img src={logo} style={{width:"80px",height:"75px"}} alt="store" className="navbar-brand"/>
                 </Link>
+                <h3 className="logo-text" style={{color:"orange"}}>Kids And Gadget</h3>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
                         <Link to="/" className="nav-link">
